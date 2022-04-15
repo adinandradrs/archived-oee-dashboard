@@ -1,0 +1,26 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="LoginForm.Master.cs" Inherits="OEEClient.Views.Shared.Login" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <script type="text/javascript" src="../../Content/jquery-ui/js/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="../../Content/jquery-ui/blitzer/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="../../Content/jquery.validate.min.js"></script>
+    <script type="text/javascript" src="../../Scripts/LoginForm.js"></script>
+    <link rel="Stylesheet" href="../../Content/jquery-ui/blitzer/jquery-ui.min.css" />
+    <link rel="Stylesheet" href="../../Content/Site.css" />
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+</html>

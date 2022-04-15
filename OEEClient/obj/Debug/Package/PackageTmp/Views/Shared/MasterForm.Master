@@ -1,0 +1,120 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterForm.Master.cs" Inherits="OEEClient.Views.Shared.master_form" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <script type="text/javascript" src="../../Content/jquery-ui/js/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="../../Content/jquery-ui/darkness/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="../../Content/jquery.validate.min.js"></script>
+    <script type="text/javascript" src="../../Content/jquery-ui/jquery-ui-timepicker-addon.js"></script>
+    <script type="text/javascript" src="../../Content/jquery-ui/js/i18n/grid.locale-en.js"></script>
+    <script type="text/javascript" src="../../Content/jquery-ui/js/jquery.jqGrid.min.js"></script>
+    <script type="text/javascript" src="../../Content/simpletreemenu.js"></script>
+    <link rel="Stylesheet" href="../../Content/simpletree.css" />
+    <link rel="Stylesheet" href="../../Content/jquery-ui/darkness/jquery-ui.min.css" />
+    <link rel="Stylesheet" href="../../Content/jquery-ui/darkness/jquery-ui.min.css" />
+    <link rel="Stylesheet" href="../../Content/jquery-ui/css/ui.jqgrid.css" />
+    <link rel="Stylesheet" href="../../Content/Site.css" />
+</head>
+<body>
+    <form id="form1" runat="server">
+    <!--datasource-->
+    <asp:ObjectDataSource runat="server" ID="linesDataSource" 
+        SelectMethod="getLineMenu" TypeName="OEEClient.Controllers.LineController">
+    </asp:ObjectDataSource>
+    <asp:ObjectDataSource runat="server" ID="shiftDataSource" 
+        SelectMethod="getShiftMenu" TypeName="OEEClient.Controllers.ShiftController">
+    </asp:ObjectDataSource>
+    <asp:ScriptManager runat="server">
+        <Scripts>
+            <asp:ScriptReference Path="~/Scripts/MasterForm.js" />
+            <asp:ScriptReference Path="~/Scripts/KpiForm.js" />
+        </Scripts>
+    </asp:ScriptManager>
+    <div id="board">
+        <div id="header">
+        </div>
+        <div id="sidebar">
+            <%
+            OEEBusinessObject.rockwell.business.UserGroup userGroup = (OEEBusinessObject.rockwell.business.UserGroup) Session[OEEComponent.maintenance.AppConstants.SESSION_LOGIN_USERGROUP];
+            if (userGroup.groupId.groupId == OEEComponent.maintenance.AppConstants.IS_ADMIN)
+            {
+            %>
+            <div id="accordion">
+                
+	            <h3>Master Data</h3>
+	            <div>
+                    <ul class="menu">
+                        <li><a href="../../Shift/Index">Shift</a></li>
+                        <li><a href="../../Line/Index">Line</a></li>
+                        <li><a href="../../Workcell/Index">Workcell</a></li>
+                        <li><a href="../../User/Index">User</a></li>
+                        <li><a href="../../Home/doLogoutRequest">Logout</a></li>
+                    </ul>
+                </div>
+                
+<%--                <h3>Shift</h3>
+	            <div>
+                    <asp:Repeater runat="server" ID="repeaterShift" DataSourceID="shiftDataSource">
+                        <HeaderTemplate>
+                            <ul class="menu">        
+                        </HeaderTemplate>
+                        <ItemTemplate>
+                            <li><a href="#<%# Eval("shiftId") %>"><%# Eval("description") %></a></li>    
+                        </ItemTemplate>
+                        <FooterTemplate>
+                            </ul>
+                        </FooterTemplate>
+                    </asp:Repeater>   
+                </div>--%>
+
+            </div>
+            <%  } %>
+            <%  
+            if (userGroup.groupId.groupId == OEEComponent.maintenance.AppConstants.IS_USER)
+            {   
+            %>
+            <script type="text/javascript" src="../../Scripts/DashboardForm.js"></script>
+            <div style="margin-top:40px">
+            <asp:Repeater runat="server" ID="repeaterLine" DataSourceID="linesDataSource" 
+                onitemdatabound="repeaterLine_ItemDataBound">
+                <HeaderTemplate>
+                    <ul id="treemenu1" class="treeview">
+                </HeaderTemplate>
+                <ItemTemplate>
+                    <li class="submenu"><a href="../../Dashboard/Index?type=line&key=<%# Eval("description") %>&lineId=<%# Eval("lineId") %>"><%# Eval("description") %></a>
+                        <ul rel="closed">
+                            <asp:Repeater runat="server" ID="repeaterWorkcell">
+                                <ItemTemplate>
+                                    <li><a href="../../Dashboard/Index?type=workcell&key=<%# Eval("machineId")%>&machineUid=<%# Eval("machineUid")%>"><%# Eval("machineId")%></a></li>    
+                                </ItemTemplate>
+                            </asp:Repeater>
+                            
+                        </ul>
+                    </li>
+                    
+                </ItemTemplate>
+                <FooterTemplate>
+                    </ul>
+                </FooterTemplate>
+            </asp:Repeater>
+            </div>
+            <%} %>
+        </div>
+        <script type="text/javascript">
+            ddtreemenu.createTree("treemenu1", true, 5)
+        </script>
+
+        <div id="main">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+            </asp:ContentPlaceHolder>
+        </div>
+    </div>
+    </form>
+</body>
+</html>

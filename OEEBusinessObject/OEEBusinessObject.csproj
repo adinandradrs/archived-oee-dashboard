@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{71C5E63C-FFB1-4640-BE8F-FC05209BA944}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>OEEBusinessObject</RootNamespace>
+    <AssemblyName>OEEBusinessObject</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="rockwell\business\Config.cs" />
+    <Compile Include="rockwell\business\Kpi.cs" />
+    <Compile Include="rockwell\business\Line.cs" />
+    <Compile Include="rockwell\business\Group.cs" />
+    <Compile Include="rockwell\business\LogTag.cs" />
+    <Compile Include="rockwell\business\Shift.cs" />
+    <Compile Include="rockwell\business\Workcell.cs" />
+    <Compile Include="rockwell\business\TagMap.cs" />
+    <Compile Include="rockwell\business\User.cs" />
+    <Compile Include="rockwell\business\UserGroup.cs" />
+    <Compile Include="rockwell\datalayer\ConfigBase.cs" />
+    <Compile Include="rockwell\datalayer\LogTagBase.cs" />
+    <Compile Include="rockwell\datalayer\TagMapBase.cs" />
+    <Compile Include="rockwell\datalayer\LineBase.cs" />
+    <Compile Include="rockwell\datalayer\GroupBase.cs" />
+    <Compile Include="rockwell\datalayer\ShiftBase.cs" />
+    <Compile Include="rockwell\datalayer\UserBase.cs" />
+    <Compile Include="rockwell\datalayer\UserGroupBase.cs" />
+    <Compile Include="rockwell\datalayer\WorkcellBase.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\OEEComponent\OEEComponent.csproj">
+      <Project>{A7B37AE9-C7CA-4C61-81E5-07A1F108DEC3}</Project>
+      <Name>OEEComponent</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

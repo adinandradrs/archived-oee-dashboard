@@ -1,0 +1,45 @@
+\\vmware-host\shared folders\works [shared]\documents\visual studio 2010\Projects\OEE\OEEClient\bin\OEEClient.dll
+\\vmware-host\shared folders\works [shared]\documents\visual studio 2010\Projects\OEE\OEEClient\bin\OEEClient.pdb
+\\vmware-host\shared folders\works [shared]\documents\visual studio 2010\Projects\OEE\OEEClient\bin\OEEBusinessObject.dll
+\\vmware-host\shared folders\works [shared]\documents\visual studio 2010\Projects\OEE\OEEClient\bin\OEEComponent.dll
+\\vmware-host\shared folders\works [shared]\documents\visual studio 2010\Projects\OEE\OEEClient\bin\OEEBusinessObject.pdb
+\\vmware-host\shared folders\works [shared]\documents\visual studio 2010\Projects\OEE\OEEClient\bin\OEEComponent.pdb
+\\vmware-host\shared folders\works [shared]\documents\visual studio 2010\Projects\OEE\OEEClient\obj\Debug\ResolveAssemblyReference.cache
+\\vmware-host\shared folders\works [shared]\documents\visual studio 2010\Projects\OEE\OEEClient\obj\Debug\OEEClient.dll
+\\vmware-host\shared folders\works [shared]\documents\visual studio 2010\Projects\OEE\OEEClient\obj\Debug\OEEClient.pdb
+Z:\Works [Shared]\Documents\Visual Studio 2010\Projects\OEEP1\OEEClient\bin\OEEClient.dll
+Z:\Works [Shared]\Documents\Visual Studio 2010\Projects\OEEP1\OEEClient\bin\OEEClient.pdb
+Z:\Works [Shared]\Documents\Visual Studio 2010\Projects\OEEP1\OEEClient\bin\OEEBusinessObject.dll
+Z:\Works [Shared]\Documents\Visual Studio 2010\Projects\OEEP1\OEEClient\bin\OEEComponent.dll
+Z:\Works [Shared]\Documents\Visual Studio 2010\Projects\OEEP1\OEEClient\bin\OEEBusinessObject.pdb
+Z:\Works [Shared]\Documents\Visual Studio 2010\Projects\OEEP1\OEEClient\bin\OEEComponent.pdb
+Z:\Works [Shared]\Documents\Visual Studio 2010\Projects\OEEP1\OEEClient\obj\Debug\ResolveAssemblyReference.cache
+Z:\Works [Shared]\Documents\Visual Studio 2010\Projects\OEEP1\OEEClient\obj\Debug\OEEClient.dll
+Z:\Works [Shared]\Documents\Visual Studio 2010\Projects\OEEP1\OEEClient\obj\Debug\OEEClient.pdb
+C:\OEEP1\OEEClient\bin\OEEClient.dll
+C:\OEEP1\OEEClient\bin\OEEClient.pdb
+C:\OEEP1\OEEClient\bin\OEEBusinessObject.dll
+C:\OEEP1\OEEClient\bin\OEEComponent.dll
+C:\OEEP1\OEEClient\bin\OEEBusinessObject.pdb
+C:\OEEP1\OEEClient\bin\OEEComponent.pdb
+C:\OEEP1\OEEClient\obj\Debug\ResolveAssemblyReference.cache
+C:\OEEP1\OEEClient\obj\Debug\OEEClient.dll
+C:\OEEP1\OEEClient\obj\Debug\OEEClient.pdb
+\\vmware-host\Shared Folders\Works [Shared]\Documents\Freelance\6. OEE [Ore]\Source\OEEP1\OEEClient\bin\OEEClient.dll
+\\vmware-host\Shared Folders\Works [Shared]\Documents\Freelance\6. OEE [Ore]\Source\OEEP1\OEEClient\bin\OEEClient.pdb
+\\vmware-host\Shared Folders\Works [Shared]\Documents\Freelance\6. OEE [Ore]\Source\OEEP1\OEEClient\bin\OEEBusinessObject.dll
+\\vmware-host\Shared Folders\Works [Shared]\Documents\Freelance\6. OEE [Ore]\Source\OEEP1\OEEClient\bin\OEEComponent.dll
+\\vmware-host\Shared Folders\Works [Shared]\Documents\Freelance\6. OEE [Ore]\Source\OEEP1\OEEClient\bin\OEEBusinessObject.pdb
+\\vmware-host\Shared Folders\Works [Shared]\Documents\Freelance\6. OEE [Ore]\Source\OEEP1\OEEClient\bin\OEEComponent.pdb
+\\vmware-host\Shared Folders\Works [Shared]\Documents\Freelance\6. OEE [Ore]\Source\OEEP1\OEEClient\obj\Debug\ResolveAssemblyReference.cache
+\\vmware-host\Shared Folders\Works [Shared]\Documents\Freelance\6. OEE [Ore]\Source\OEEP1\OEEClient\obj\Debug\OEEClient.dll
+\\vmware-host\Shared Folders\Works [Shared]\Documents\Freelance\6. OEE [Ore]\Source\OEEP1\OEEClient\obj\Debug\OEEClient.pdb
+E:\OEEP1\OEEClient\bin\OEEClient.dll
+E:\OEEP1\OEEClient\bin\OEEClient.pdb
+E:\OEEP1\OEEClient\bin\OEEBusinessObject.dll
+E:\OEEP1\OEEClient\bin\OEEComponent.dll
+E:\OEEP1\OEEClient\bin\OEEBusinessObject.pdb
+E:\OEEP1\OEEClient\bin\OEEComponent.pdb
+E:\OEEP1\OEEClient\obj\Debug\ResolveAssemblyReference.cache
+E:\OEEP1\OEEClient\obj\Debug\OEEClient.dll
+E:\OEEP1\OEEClient\obj\Debug\OEEClient.pdb

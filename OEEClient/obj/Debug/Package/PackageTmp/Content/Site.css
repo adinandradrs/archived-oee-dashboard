@@ -1,0 +1,137 @@
+/* Styles for validation helpers
+-----------------------------------------------------------*/
+.field-validation-error
+{
+    color: #ff0000;
+}
+
+.field-validation-valid
+{
+    display: none;
+}
+
+.input-validation-error
+{
+    border: 1px solid #ff0000;
+    background-color: #ffeeee;
+}
+
+.validation-summary-errors
+{
+    font-weight: bold;
+    color: #ff0000;
+}
+
+.validation-summary-valid
+{
+    display: none;
+}
+
+html
+{
+    padding:0;
+    margin:0;
+}
+
+body
+{
+    padding:0;
+    margin:0;
+    font: 62.5% "Trebuchet MS", sans-serif;
+}
+
+#board
+{
+    margin:30px auto 0 auto;
+    width:800px;
+    min-height:320px;
+    background-color:#fff;
+}
+
+#header
+{
+    background:url("banner.png") no-repeat;
+    background-position:right;
+    height:80px;
+    width:100%;
+}
+
+#sidebar
+{
+    float:left;
+    padding-top:10px;
+    width:180px;
+}
+
+#main
+{
+    float:left;
+    height:100px;
+    padding-left:20px;
+}
+
+.menu
+{
+    margin-left:-30px;
+}
+
+.menu2
+{
+    margin-left:0px;
+}
+
+.login
+{
+    margin:30px auto 0 auto;
+    width:300px;
+    font: 120% "Trebuchet MS", sans-serif;
+}
+
+.login table
+{
+    padding:5px;
+}
+
+.viewport
+{
+    width:570px;
+}
+
+#accordion
+{
+    margin-top:35px;
+}
+
+/**
+*
+*
+**/
+
+.column {
+    width: 200px;
+    float: left;
+    padding-bottom: 100px;
+}
+.portlet {
+    margin: 0 1em 1em 0;
+    padding: 0.3em;
+}
+.portlet-header {
+    padding: 0.2em 0.3em;
+    margin-bottom: 0.5em;
+    position: relative;
+}
+.portlet-toggle {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    margin-top: -8px;
+}
+.portlet-content {
+    padding: 0.4em;
+}
+.portlet-placeholder {
+    border: 1px dotted black;
+    margin: 0 1em 1em 0;
+    height: 50px;
+}

@@ -1,0 +1,42 @@
+\\vmware-host\shared folders\works [shared]\documents\visual studio 2010\Projects\OEE\OEEBusinessObject\bin\Debug\OEEBusinessObject.dll
+\\vmware-host\shared folders\works [shared]\documents\visual studio 2010\Projects\OEE\OEEBusinessObject\bin\Debug\OEEBusinessObject.pdb
+\\vmware-host\shared folders\works [shared]\documents\visual studio 2010\Projects\OEE\OEEBusinessObject\bin\Debug\OEEComponent.dll
+\\vmware-host\shared folders\works [shared]\documents\visual studio 2010\Projects\OEE\OEEBusinessObject\bin\Debug\OEEComponent.pdb
+\\vmware-host\shared folders\works [shared]\documents\visual studio 2010\Projects\OEE\OEEBusinessObject\obj\Debug\ResolveAssemblyReference.cache
+\\vmware-host\shared folders\works [shared]\documents\visual studio 2010\Projects\OEE\OEEBusinessObject\obj\Debug\OEEBusinessObject.dll
+\\vmware-host\shared folders\works [shared]\documents\visual studio 2010\Projects\OEE\OEEBusinessObject\obj\Debug\OEEBusinessObject.pdb
+E:\My Documents\OEE\OEEBusinessObject\bin\Debug\OEEComponent.dll
+E:\My Documents\OEE\OEEBusinessObject\bin\Debug\OEEComponent.pdb
+E:\My Documents\OEE\OEEBusinessObject\obj\Debug\ResolveAssemblyReference.cache
+E:\My Documents\OEE\OEEBusinessObject\bin\Debug\OEEBusinessObject.dll
+E:\My Documents\OEE\OEEBusinessObject\bin\Debug\OEEBusinessObject.pdb
+E:\My Documents\OEE\OEEBusinessObject\obj\Debug\OEEBusinessObject.dll
+E:\My Documents\OEE\OEEBusinessObject\obj\Debug\OEEBusinessObject.pdb
+Z:\Works [Shared]\Documents\Visual Studio 2010\Projects\OEEP1\OEEBusinessObject\bin\Debug\OEEBusinessObject.dll
+Z:\Works [Shared]\Documents\Visual Studio 2010\Projects\OEEP1\OEEBusinessObject\bin\Debug\OEEBusinessObject.pdb
+Z:\Works [Shared]\Documents\Visual Studio 2010\Projects\OEEP1\OEEBusinessObject\bin\Debug\OEEComponent.dll
+Z:\Works [Shared]\Documents\Visual Studio 2010\Projects\OEEP1\OEEBusinessObject\bin\Debug\OEEComponent.pdb
+Z:\Works [Shared]\Documents\Visual Studio 2010\Projects\OEEP1\OEEBusinessObject\obj\Debug\ResolveAssemblyReference.cache
+Z:\Works [Shared]\Documents\Visual Studio 2010\Projects\OEEP1\OEEBusinessObject\obj\Debug\OEEBusinessObject.dll
+Z:\Works [Shared]\Documents\Visual Studio 2010\Projects\OEEP1\OEEBusinessObject\obj\Debug\OEEBusinessObject.pdb
+C:\OEEP1\OEEBusinessObject\bin\Debug\OEEBusinessObject.dll
+C:\OEEP1\OEEBusinessObject\bin\Debug\OEEBusinessObject.pdb
+C:\OEEP1\OEEBusinessObject\bin\Debug\OEEComponent.dll
+C:\OEEP1\OEEBusinessObject\bin\Debug\OEEComponent.pdb
+C:\OEEP1\OEEBusinessObject\obj\Debug\ResolveAssemblyReference.cache
+C:\OEEP1\OEEBusinessObject\obj\Debug\OEEBusinessObject.dll
+C:\OEEP1\OEEBusinessObject\obj\Debug\OEEBusinessObject.pdb
+\\vmware-host\Shared Folders\Works [Shared]\Documents\Freelance\6. OEE [Ore]\Source\OEEP1\OEEBusinessObject\bin\Debug\OEEBusinessObject.dll
+\\vmware-host\Shared Folders\Works [Shared]\Documents\Freelance\6. OEE [Ore]\Source\OEEP1\OEEBusinessObject\bin\Debug\OEEBusinessObject.pdb
+\\vmware-host\Shared Folders\Works [Shared]\Documents\Freelance\6. OEE [Ore]\Source\OEEP1\OEEBusinessObject\bin\Debug\OEEComponent.dll
+\\vmware-host\Shared Folders\Works [Shared]\Documents\Freelance\6. OEE [Ore]\Source\OEEP1\OEEBusinessObject\bin\Debug\OEEComponent.pdb
+\\vmware-host\Shared Folders\Works [Shared]\Documents\Freelance\6. OEE [Ore]\Source\OEEP1\OEEBusinessObject\obj\Debug\ResolveAssemblyReference.cache
+\\vmware-host\Shared Folders\Works [Shared]\Documents\Freelance\6. OEE [Ore]\Source\OEEP1\OEEBusinessObject\obj\Debug\OEEBusinessObject.dll
+\\vmware-host\Shared Folders\Works [Shared]\Documents\Freelance\6. OEE [Ore]\Source\OEEP1\OEEBusinessObject\obj\Debug\OEEBusinessObject.pdb
+E:\OEEP1\OEEBusinessObject\bin\Debug\OEEBusinessObject.dll
+E:\OEEP1\OEEBusinessObject\bin\Debug\OEEBusinessObject.pdb
+E:\OEEP1\OEEBusinessObject\bin\Debug\OEEComponent.dll
+E:\OEEP1\OEEBusinessObject\bin\Debug\OEEComponent.pdb
+E:\OEEP1\OEEBusinessObject\obj\Debug\ResolveAssemblyReference.cache
+E:\OEEP1\OEEBusinessObject\obj\Debug\OEEBusinessObject.dll
+E:\OEEP1\OEEBusinessObject\obj\Debug\OEEBusinessObject.pdb

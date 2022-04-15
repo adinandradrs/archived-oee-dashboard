@@ -1,0 +1,5 @@
+E:\My Documents\OEE\OEEComponent\bin\Debug\OEEComponent.dll
+E:\My Documents\OEE\OEEComponent\bin\Debug\OEEComponent.pdb
+E:\My Documents\OEE\OEEComponent\obj\Debug\ResolveAssemblyReference.cache
+E:\My Documents\OEE\OEEComponent\obj\Debug\OEEComponent.dll
+E:\My Documents\OEE\OEEComponent\obj\Debug\OEEComponent.pdb

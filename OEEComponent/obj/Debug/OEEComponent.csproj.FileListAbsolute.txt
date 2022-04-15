@@ -1,0 +1,25 @@
+\\vmware-host\shared folders\works [shared]\documents\visual studio 2010\Projects\OEE\OEEComponent\bin\Debug\OEEComponent.dll
+\\vmware-host\shared folders\works [shared]\documents\visual studio 2010\Projects\OEE\OEEComponent\bin\Debug\OEEComponent.pdb
+\\vmware-host\shared folders\works [shared]\documents\visual studio 2010\Projects\OEE\OEEComponent\obj\Debug\ResolveAssemblyReference.cache
+\\vmware-host\shared folders\works [shared]\documents\visual studio 2010\Projects\OEE\OEEComponent\obj\Debug\OEEComponent.dll
+\\vmware-host\shared folders\works [shared]\documents\visual studio 2010\Projects\OEE\OEEComponent\obj\Debug\OEEComponent.pdb
+E:\My Documents\OEE\OEEComponent\bin\Debug\OEEComponent.dll
+E:\My Documents\OEE\OEEComponent\bin\Debug\OEEComponent.pdb
+E:\My Documents\OEE\OEEComponent\obj\Debug\ResolveAssemblyReference.cache
+E:\My Documents\OEE\OEEComponent\obj\Debug\OEEComponent.dll
+E:\My Documents\OEE\OEEComponent\obj\Debug\OEEComponent.pdb
+Z:\Works [Shared]\Documents\Visual Studio 2010\Projects\OEEP1\OEEComponent\bin\Debug\OEEComponent.dll
+Z:\Works [Shared]\Documents\Visual Studio 2010\Projects\OEEP1\OEEComponent\bin\Debug\OEEComponent.pdb
+Z:\Works [Shared]\Documents\Visual Studio 2010\Projects\OEEP1\OEEComponent\obj\Debug\ResolveAssemblyReference.cache
+Z:\Works [Shared]\Documents\Visual Studio 2010\Projects\OEEP1\OEEComponent\obj\Debug\OEEComponent.dll
+Z:\Works [Shared]\Documents\Visual Studio 2010\Projects\OEEP1\OEEComponent\obj\Debug\OEEComponent.pdb
+C:\OEEP1\OEEComponent\bin\Debug\OEEComponent.dll
+C:\OEEP1\OEEComponent\bin\Debug\OEEComponent.pdb
+C:\OEEP1\OEEComponent\obj\Debug\ResolveAssemblyReference.cache
+C:\OEEP1\OEEComponent\obj\Debug\OEEComponent.dll
+C:\OEEP1\OEEComponent\obj\Debug\OEEComponent.pdb
+\\vmware-host\Shared Folders\Works [Shared]\Documents\Freelance\6. OEE [Ore]\Source\OEEP1\OEEComponent\bin\Debug\OEEComponent.dll
+\\vmware-host\Shared Folders\Works [Shared]\Documents\Freelance\6. OEE [Ore]\Source\OEEP1\OEEComponent\bin\Debug\OEEComponent.pdb
+\\vmware-host\Shared Folders\Works [Shared]\Documents\Freelance\6. OEE [Ore]\Source\OEEP1\OEEComponent\obj\Debug\ResolveAssemblyReference.cache
+\\vmware-host\Shared Folders\Works [Shared]\Documents\Freelance\6. OEE [Ore]\Source\OEEP1\OEEComponent\obj\Debug\OEEComponent.dll
+\\vmware-host\Shared Folders\Works [Shared]\Documents\Freelance\6. OEE [Ore]\Source\OEEP1\OEEComponent\obj\Debug\OEEComponent.pdb
